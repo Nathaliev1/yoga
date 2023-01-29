@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css" type="text/css">
+  </head>
+  <body>
+    <header>
+    <h1>Contactformulier</h1>
+    </header>
+<div>
+  <form id="contactform" action="https://formspree.io/f/xnqyngal" method="post">
+    <fieldset>
+   <legend>Meld je hier aan:</legend>
+   <label class="title">Naam:</label><br>
+   <input type="text" name="name">
+   <br>
+   <br>
+   <label>Voornaam:</label><br>
+   <input type="text" name="name">
+   <br>
+   <br>
+   <label class="title">Uw e-mailadres:</label><br>
+   <input type="email" name="_replyto" placeholder="voorbeeld:naam.voornaam@com">
+   <br>
+   <br>
+   <label class="title" >Uw bericht:</label><br>
+   <input type="hidden" name="_subject" value="Website contact">
+   <textarea name="message" placeholder="Uw bericht">
+   </textarea>
+   <br>
+   <br>
+   <input type="text" name="_gotcha" style="display:none">
+   <input id="submit" type="submit" value="Verzend">
+   <br>
+   </fieldset>
+  </form>
+  </div>
+  <footer></footer>
+  </body>
+  </html>

@@ -1,0 +1,16 @@
+body{
+  background-color: #FFE4E1;
+  display:inline-block;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: min(5px)
+}
+h1{
+  text-align: center;
+  background-color: lightgrey;
+}
+tr{
+  vertical-align: text-top;
+  background-color: lightgrey;
+
+}
