@@ -13,7 +13,7 @@ body, header, footer{
 div{
   padding: 10px 10px 10px 10px;
 }
-ul a{
+  ol a{
   color: white;
 }
 li{
